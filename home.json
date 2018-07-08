@@ -5,56 +5,56 @@
         "posts": [{
           "type": "stories",
           "items": [{
-            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton_avatar.png",
+            "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/barton_avatar.png",
             "name": "Barton",
             "location": "Somewhere",
-            "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton.jpg"
+            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/barton.jpg"
           }, {
-            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/audrey_avatar.png",
+            "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/audrey_avatar.png",
             "name": "Audrey",
             "location": "Somewhere",
-            "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/audrey.jpg"
+            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/audrey.jpg"
           }, {
-            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/boss_avatar.png",
+            "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/boss_avatar.png",
             "name": "Audrey",
             "location": "Somewhere",
-            "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/boss.jpg"
+            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/boss.jpg"
           }, {
-            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/chet_avatar.png",
+            "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/chet_avatar.png",
             "name": "Chet!",
             "location": "Somewhere",
-            "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/chet.jpg"
+            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/chet.jpg"
           }, {
-            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/girl_avatar.png",
+            "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/girl_avatar.png",
             "name": "Girl",
             "location": "Somewhere",
-            "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/girl.jpg"
+            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/girl.jpg"
           }]
         }, {
-          "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton_avatar.png",
+          "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/barton_avatar.png",
           "name": "Barton",
           "location": "Somewhere",
-          "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton.jpg"
+          "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/barton.jpg"
         }, {
-          "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/audrey_avatar.png",
+          "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/audrey_avatar.png",
           "name": "Audrey",
           "location": "Somewhere",
-          "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/audrey.jpg"
+          "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/audrey.jpg"
         }, {
-          "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/boss_avatar.png",
+          "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/boss_avatar.png",
           "name": "Audrey",
           "location": "Somewhere",
-          "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/boss.jpg"
+          "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/boss.jpg"
         }, {
-          "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/chet_avatar.png",
+          "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/chet_avatar.png",
           "name": "Chet!",
           "location": "Somewhere",
-          "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/chet.jpg"
+          "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/chet.jpg"
         }, {
-          "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/girl_avatar.png",
+          "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/girl_avatar.png",
           "name": "Girl",
           "location": "Somewhere",
-          "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/girl.jpg"
+          "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/girl.jpg"
         }]
       },
       "templates": {
@@ -145,7 +145,7 @@
                       "type": "space"
                     }, {
                       "type": "image",
-                      "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/dotdotdot.png",
+                      "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/dotdotdot.png",
                       "style": {
                         "padding_top": "10",
                         "width": "25"
