@@ -52,8 +52,8 @@
       <file leaf-file-name="tnc.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tnc.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="272">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -145,12 +145,12 @@
       <workItem from="1530883786059" duration="304000" />
       <workItem from="1530885727050" duration="1034000" />
       <workItem from="1530935239417" duration="3356000" />
-      <workItem from="1530979823951" duration="20197000" />
+      <workItem from="1530979823951" duration="20270000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24891000" />
+    <option name="totallyTimeSpent" value="24964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -235,8 +235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tnc.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        <state relative-caret-position="272">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
         </state>
       </provider>
     </entry>
