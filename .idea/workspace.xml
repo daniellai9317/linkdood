@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b1fba76-fef4-43dd-b44e-b3dfcae24918" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/anti.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/comm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contactus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contract.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gold.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/audrey.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/audrey_avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/barton.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/barton_avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/boss.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/boss_avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/camera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chet.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chet_avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dotdotdot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/features.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/girl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/girl_avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/heart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/instagram-android.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/instagram.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lep.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nac.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/protect.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/support.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tnc.json" beforeDir="false" afterPath="$PROJECT_DIR$/tnc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usb.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,8 +52,8 @@
       <file leaf-file-name="tnc.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tnc.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="100" column="24" lean-forward="true" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+            <state relative-caret-position="153">
+              <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -173,12 +145,12 @@
       <workItem from="1530883786059" duration="304000" />
       <workItem from="1530885727050" duration="1034000" />
       <workItem from="1530935239417" duration="3356000" />
-      <workItem from="1530979823951" duration="20076000" />
+      <workItem from="1530979823951" duration="20197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24770000" />
+    <option name="totallyTimeSpent" value="24891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -263,8 +235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tnc.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="100" column="24" lean-forward="true" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+        <state relative-caret-position="153">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
         </state>
       </provider>
     </entry>
