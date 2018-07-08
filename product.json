@@ -1,67 +1,214 @@
 {
   "$jason": {
     "head": {
-      "title": "search"
-    },
-    "body": {
-      "header": {
-        "title": {
-          "type": "image",
-          "style": {
-            "width": "94",
-            "height": "27"
+      "data": {
+        "posts": [
+          {
+            "type": "products",
+            "items": [
+              {
+                "name": "LinkDood Communication",
+                "location": "Linkdood Comm provides a better and secured life style to you. And also able to control the electronic devices through our IOT system.Besides that, this system gives us a more privacy instant messaging with friends or relatives due to nowadays too many data have leak out by using cloud server. Therefore, we have provide a private server to you and the transmitting data is encrypted by SHA256 bit…",
+                "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/comm.jpg"
+              },
+              {
+                "name": "Antivirus Software",
+                "location": "A new-generation enterprise anti-virus & security protection system, providing professional and reliable endpoint security solution for enterprises",
+                "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/anti.jpg"
+              },
+              {
+                "name": "Linkdood End Point Protection",
+                "location": "Prevents the execution of unauthorized applications, Reduces IT risk caused by known vulnerabilities and also Decrease data breaches and other and many more",
+                "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/protect.jpg"
+              },
+              {
+                "name": "LEP-DMS Suite",
+                "location": " Solve & Manage all IT problems from One Dashboard",
+                "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/lep.jpg"
+              },
+              {
+                "name": "Linkdood Network Access Control",
+                "location": "NAC is a computer networking hardware that aims to provide organization with complete control over their network resources.",
+                "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/nac.jpg"
+              },
+              {
+                "name": "Gold Armour",
+                "location": "Linkdood Gold Armor checks against any performance or security issues in the Windows Operating System. Additionally, provides protection to confidential documents in the system as well as outgoing documentas and also converts normal thumb drive into secured USB thumb drive.",
+                "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/gold.jpg"
+              },
+              {
+                "name": "Linkdood Secured USB",
+                "location": " Linkdood Secured USB uses a customized file management system which provides the highest level of security to data. Linkdood Secured USBdelibers on the high data security demand from enterprises whilst being easy and convenient to use.",
+                "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/usb.jpg"
+              }
+            ]
           },
-          "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/logo.png"
-        }
+          {
+            "name": "LinkDood Communication",
+            "location": "Linkdood Comm provides a better and secured life style to you. And also able to control the electronic devices through our IOT system.Besides that, this system gives us a more privacy instant messaging with friends or relatives due to nowadays too many data have leak out by using cloud server. Therefore, we have provide a private server to you and the transmitting data is encrypted by SHA256 bit…",
+            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/comm.jpg"
+          },
+          {
+            "name": "Antivirus Software",
+            "location": "A new-generation enterprise anti-virus & security protection system, providing professional and reliable endpoint security solution for enterprises",
+            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/anti.jpg"
+          },
+          {
+            "name": "Linkdood End Point Protection",
+            "location": "Prevents the execution of unauthorized applications, Reduces IT risk caused by known vulnerabilities and also Decrease data breaches and other and many more",
+            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/protect.jpg"
+          },
+          {
+            "name": "LEP-DMS Suite",
+            "location": " Solve & Manage all IT problems from One Dashboard",
+            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/lep.jpg"
+          },
+          {
+            "name": "Linkdood Network Access Control",
+            "location": "NAC is a computer networking hardware that aims to provide organization with complete control over their network resources.",
+            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/nac.jpg"
+          },
+          {
+            "name": "Gold Armour",
+            "location": "Linkdood Gold Armor checks against any performance or security issues in the Windows Operating System. Additionally, provides protection to confidential documents in the system as well as outgoing documentas and also converts normal thumb drive into secured USB thumb drive.",
+            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/gold.jpg"
+          },
+          {
+            "name": "Linkdood Secured USB",
+            "location": " Linkdood Secured USB uses a customized file management system which provides the highest level of security to data. Linkdood Secured USBdelibers on the high data security demand from enterprises whilst being easy and convenient to use.",
+            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/usb.jpg"
+          }
+        ]
       },
-      "layers": [{
-        "type": "label",
-        "text": "Not implemented yet...",
-        "style": {
-          "top": "50%-100",
-          "left": "50%-100",
-          "width": "200",
-          "height": "200",
-          "align": "center"
-        }
-      }],
-      "footer": {
-        "tabs": {
-          "style": {
-            "background": "rgba(255,255,255,0.8)",
-            "color": "#000000"
+      "templates": {
+        "body": {
+          "header": {
+            "style": {
+              "shy": "true"
+            },
+            "title": {
+              "type": "image",
+              "style": {
+                "width": "94",
+                "height": "27"
+              },
+              "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/linkdood.png"
+            }
           },
-          "items": [{
-            "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/home.png",
-            "style": {
-              "height": "21"
-            },
-            "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json"
-          }, {
-            "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/search.png",
-            "style": {
-              "height": "21"
-            },
-            "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/search.json"
-          }, {
-            "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/camera.png",
-            "style": {
-              "height": "21"
-            },
-            "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/camera.json"
-          }, {
-            "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/heart.png",
-            "style": {
-              "height": "21"
-            },
-            "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/heart.json"
-          }, {
-            "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/profile.png",
-            "style": {
-              "height": "21"
-            },
-            "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/profile.json"
-          }]
+          "sections": {
+            "{{#each posts}}": [
+              {
+                "{{#if ('type' in this) && (type=='products') }}": {
+                  "type": "vartical",
+                  "items": {
+                    "{{#each items}}": {
+                      "type": "vertical"
+                    }
+                  }
+                }
+              },
+              {
+                "{{#else}}": {
+                  "header": {
+                    "type": "horizontal",
+                    "style": {
+                      "background": "#ffffff",
+                      "padding": "9",
+                      "spacing": "13"
+                    },
+                    "components": [
+                      {
+                        "type": "vertical",
+                        "components": [
+                          {
+                            "type": "label",
+                            "text": "{{name}}",
+                            "style": {
+                              "font": "HelveticaNeue-Bold",
+                              "size": "24"
+                            }
+                          },
+                          {
+                            "type": "label",
+                            "text": "{{location}}",
+                            "style": {
+                              "font": "HelveticaNeue",
+                              "size": "16"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "items": [
+                    {
+                      "style": {
+                        "width": "100%",
+                        "padding": "0"
+                      },
+                      "type": "image",
+                      "url": "{{content}}"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "footer": {
+            "tabs": {
+              "style": {
+                "background": "rgba(255,255,255,0.8)",
+                "color": "#000000"
+              },
+              "items": [
+                {
+                  "type": "label",
+                  "text": "Home",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/home.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/home.json"
+                },
+                {
+                  "type": "label",
+                  "text": "Product",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/product.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/product.json"
+                },
+                {
+                  "type": "label",
+                  "text": "About Us",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/about.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/about.json"
+                },
+                {
+                  "type": "label",
+                  "text": "Contact Us",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/contact.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/contact.json"
+                },
+                {
+                  "type": "label",
+                  "text": "T&C",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/tnc.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/tnc.json"
+                }
+              ]
+            }
+          }
         }
       }
     }
