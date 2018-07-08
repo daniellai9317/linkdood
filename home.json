@@ -158,7 +158,7 @@
                   "style": {
                     "height": "21"
                   },
-                  "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json"
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/home.json"
                 },
                 {
                   "type": "label",
@@ -167,7 +167,7 @@
                   "style": {
                     "height": "21"
                   },
-                  "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/search.json"
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/product.json"
                 },
                 {
                   "type": "label",
@@ -176,7 +176,7 @@
                   "style": {
                     "height": "21"
                   },
-                  "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/camera.json"
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/about.json"
                 },
                 {
                   "type": "label",
@@ -185,7 +185,7 @@
                   "style": {
                     "height": "21"
                   },
-                  "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/heart.json"
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/contact.json"
                 },
                 {
                   "type": "label",
@@ -194,7 +194,7 @@
                   "style": {
                     "height": "21"
                   },
-                  "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/profile.json"
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/tnc.json"
                 }
               ]
             }
