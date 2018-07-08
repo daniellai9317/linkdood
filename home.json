@@ -2,60 +2,73 @@
   "$jason": {
     "head": {
       "data": {
-        "posts": [{
-          "type": "stories",
-          "items": [{
-            "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/barton_avatar.png",
+        "posts": [
+          {
+            "type": "stories",
+            "items": [
+              {
+                "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton_avatar.png",
+                "name": "Barton",
+                "location": "Somewhere",
+                "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton.jpg"
+              },
+              {
+                "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/audrey_avatar.png",
+                "name": "Audrey",
+                "location": "Somewhere",
+                "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/audrey.jpg"
+              },
+              {
+                "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/boss_avatar.png",
+                "name": "Audrey",
+                "location": "Somewhere",
+                "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/boss.jpg"
+              },
+              {
+                "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/chet_avatar.png",
+                "name": "Chet!",
+                "location": "Somewhere",
+                "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/chet.jpg"
+              },
+              {
+                "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/girl_avatar.png",
+                "name": "Girl",
+                "location": "Somewhere",
+                "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/girl.jpg"
+              }
+            ]
+          },
+          {
+            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton_avatar.png",
             "name": "Barton",
             "location": "Somewhere",
-            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/barton.jpg"
-          }, {
-            "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/audrey_avatar.png",
+            "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/barton.jpg"
+          },
+          {
+            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/audrey_avatar.png",
             "name": "Audrey",
             "location": "Somewhere",
-            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/audrey.jpg"
-          }, {
-            "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/boss_avatar.png",
+            "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/audrey.jpg"
+          },
+          {
+            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/boss_avatar.png",
             "name": "Audrey",
             "location": "Somewhere",
-            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/boss.jpg"
-          }, {
-            "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/chet_avatar.png",
+            "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/boss.jpg"
+          },
+          {
+            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/chet_avatar.png",
             "name": "Chet!",
             "location": "Somewhere",
-            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/chet.jpg"
-          }, {
-            "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/girl_avatar.png",
+            "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/chet.jpg"
+          },
+          {
+            "avatar": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/girl_avatar.png",
             "name": "Girl",
             "location": "Somewhere",
-            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/girl.jpg"
-          }]
-        }, {
-          "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/barton_avatar.png",
-          "name": "Barton",
-          "location": "Somewhere",
-          "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/barton.jpg"
-        }, {
-          "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/audrey_avatar.png",
-          "name": "Audrey",
-          "location": "Somewhere",
-          "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/audrey.jpg"
-        }, {
-          "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/boss_avatar.png",
-          "name": "Audrey",
-          "location": "Somewhere",
-          "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/boss.jpg"
-        }, {
-          "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/chet_avatar.png",
-          "name": "Chet!",
-          "location": "Somewhere",
-          "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/chet.jpg"
-        }, {
-          "avatar": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/girl_avatar.png",
-          "name": "Girl",
-          "location": "Somewhere",
-          "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/girl.jpg"
-        }]
+            "content": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/girl.jpg"
+          }
+        ]
       },
       "templates": {
         "body": {
@@ -70,6 +83,10 @@
                 "height": "27"
               },
               "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/linkdood.png"
+            },
+            "menu": {
+              "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/box.png"
+            }
           },
           "sections": {
             "{{#each posts}}": [
@@ -88,21 +105,24 @@
                         "distribution": "equalspacing",
                         "height": "120"
                       },
-                      "components": [{
-                        "type": "image",
-                        "url": "{{avatar}}",
-                        "style": {
-                          "width": "76",
-                          "height": "76",
-                          "corner_radius": "38"
+                      "components": [
+                        {
+                          "type": "image",
+                          "url": "{{avatar}}",
+                          "style": {
+                            "width": "76",
+                            "height": "76",
+                            "corner_radius": "38"
+                          }
+                        },
+                        {
+                          "type": "label",
+                          "text": "{{name}}",
+                          "style": {
+                            "size": "12"
+                          }
                         }
-                      }, {
-                        "type": "label",
-                        "text": "{{name}}",
-                        "style": {
-                          "size": "12"
-                        }
-                      }]
+                      ]
                     }
                   }
                 }
@@ -116,50 +136,60 @@
                       "padding": "9",
                       "spacing": "13"
                     },
-                    "components": [{
-                      "type": "image",
-                      "url": "{{avatar}}",
-                      "style": {
-                        "width": "38",
-                        "height": "38",
-                        "corner_radius": "19"
-                      }
-                    }, {
-                      "type": "vertical",
-                      "components": [{
-                        "type": "label",
-                        "text": "{{name}}",
+                    "components": [
+                      {
+                        "type": "image",
+                        "url": "{{avatar}}",
                         "style": {
-                          "font": "HelveticaNeue-Bold",
-                          "size": "12"
+                          "width": "38",
+                          "height": "38",
+                          "corner_radius": "19"
                         }
-                      }, {
-                        "type": "label",
-                        "text": "{{location}} >",
+                      },
+                      {
+                        "type": "vertical",
+                        "components": [
+                          {
+                            "type": "label",
+                            "text": "{{name}}",
+                            "style": {
+                              "font": "HelveticaNeue-Bold",
+                              "size": "12"
+                            }
+                          },
+                          {
+                            "type": "label",
+                            "text": "{{location}} >",
+                            "style": {
+                              "font": "HelveticaNeue",
+                              "size": "11"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "space"
+                      },
+                      {
+                        "type": "image",
+                        "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/dotdotdot.png",
                         "style": {
-                          "font": "HelveticaNeue",
-                          "size": "11"
+                          "padding_top": "10",
+                          "width": "25"
                         }
-                      }]
-                    }, {
-                      "type": "space"
-                    }, {
-                      "type": "image",
-                      "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/dotdotdot.png",
-                      "style": {
-                        "padding_top": "10",
-                        "width": "25"
                       }
-                    }]
+                    ]
                   },
-                  "items": [{
-                    "style": {
-                      "width": "100%",
-                      "padding": "0"
-                    },
-                    "type": "image",
-                    "url": "{{content}}"
-                  }]
+                  "items": [
+                    {
+                      "style": {
+                        "width": "100%",
+                        "padding": "0"
+                      },
+                      "type": "image",
+                      "url": "{{content}}"
+                    }
+                  ]
                 }
               }
             ]
@@ -170,39 +200,53 @@
                 "background": "rgba(255,255,255,0.8)",
                 "color": "#000000"
               },
-              "items": [{
-                "type": "label",
-                "text": "Home",
-                "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/home.png",
-                "style": {
-                  "height": "21"
+              "items": [
+                {
+                  "type": "label",
+                  "text": "Home",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/home.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/home.json"
                 },
-                "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/home.json"
-              }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/search.png",
-                "style": {
-                  "height": "21"
+                {
+                  "type": "label",
+                  "text": "Product",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/search.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/search.json"
                 },
-                "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/search.json"
-              }, {
-                "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/camera.png",
-                "style": {
-                  "height": "21"
+                {
+                  "type": "label",
+                  "text": "About Us",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/camera.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/camera.json"
                 },
-                "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/camera.json"
-              }, {
-                "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/heart.png",
-                "style": {
-                  "height": "21"
+                {
+                  "type": "label",
+                  "text": "Contact Us",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/heart.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/heart.json"
                 },
-                "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/heart.json"
-              }, {
-                "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/profile.png",
-                "style": {
-                  "height": "21"
-                },
-                "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/profile.json"
-              }]
+                {
+                  "type": "label",
+                  "text": "T&C",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/profile.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/profile.json"
+                }
+              ]
             }
           }
         }
