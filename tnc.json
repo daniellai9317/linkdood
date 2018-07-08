@@ -7,12 +7,14 @@
             "type": "description",
             "items": [
               {
-                "name": "Terms & Conditions"
+                "name": "Terms & Conditions",
+                "location": ""
               }
             ]
           },
           {
             "name": "Terms & Conditions"
+            "location": ""
           }
         ]
       },
