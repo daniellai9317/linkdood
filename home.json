@@ -179,8 +179,6 @@
                 },
                 "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/home.json"
               }, {
-                "type": "label",
-                "text": "Product",
                 "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/search.png",
                 "style": {
                   "height": "21"
