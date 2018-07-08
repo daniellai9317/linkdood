@@ -34,8 +34,8 @@
       <file leaf-file-name="about.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39">
-              <caret line="134" column="27" selection-end-line="179" selection-end-column="1" />
+            <state relative-caret-position="2482">
+              <caret line="146" column="34" lean-forward="true" selection-start-line="146" selection-start-column="34" selection-end-line="146" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -43,8 +43,8 @@
       <file leaf-file-name="contact.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="112" column="33" selection-end-line="195" selection-end-column="1" />
+            <state relative-caret-position="1836">
+              <caret line="108" column="29" lean-forward="true" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -52,8 +52,8 @@
       <file leaf-file-name="tnc.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tnc.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="272">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -145,12 +145,12 @@
       <workItem from="1530883786059" duration="304000" />
       <workItem from="1530885727050" duration="1034000" />
       <workItem from="1530935239417" duration="3356000" />
-      <workItem from="1530979823951" duration="20767000" />
+      <workItem from="1530979823951" duration="20906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25461000" />
+    <option name="totallyTimeSpent" value="25600000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
@@ -219,24 +219,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about.json">
+    <entry file="file://$PROJECT_DIR$/contact.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="134" column="27" selection-end-line="179" selection-end-column="1" />
+        <state relative-caret-position="1836">
+          <caret line="108" column="29" lean-forward="true" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.json">
+    <entry file="file://$PROJECT_DIR$/about.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="112" column="33" selection-end-line="195" selection-end-column="1" />
+        <state relative-caret-position="2482">
+          <caret line="146" column="34" lean-forward="true" selection-start-line="146" selection-start-column="34" selection-end-line="146" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tnc.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        <state relative-caret-position="272">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
         </state>
       </provider>
     </entry>
