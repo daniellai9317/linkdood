@@ -69,11 +69,7 @@
                 "width": "94",
                 "height": "27"
               },
-              "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/logo.png"
-            },
-            "menu": {
-              "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/box.png"
-            }
+              "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/linkdood.png"
           },
           "sections": {
             "{{#each posts}}": [
@@ -176,36 +172,38 @@
               },
               "items": [{
                 "type": "label",
-                "text": "Hello World",
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/home.png",
+                "text": "Home",
+                "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/home.png",
                 "style": {
                   "height": "21"
                 },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json"
+                "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/home.json"
               }, {
+                "type": "label",
+                "text": "Product",
                 "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/search.png",
                 "style": {
                   "height": "21"
                 },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/search.json"
+                "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/search.json"
               }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/camera.png",
+                "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/camera.png",
                 "style": {
                   "height": "21"
                 },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/camera.json"
+                "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/camera.json"
               }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/heart.png",
+                "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/heart.png",
                 "style": {
                   "height": "21"
                 },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/heart.json"
+                "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/heart.json"
               }, {
-                "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/profile.png",
+                "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/profile.png",
                 "style": {
                   "height": "21"
                 },
-                "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/profile.json"
+                "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/profile.json"
               }]
             }
           }
