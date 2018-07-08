@@ -1,69 +1,196 @@
 {
   "$jason": {
     "head": {
-      "title": "search"
-    },
-    "body": {
-      "header": {
-        "title": {
-          "type": "image",
-          "style": {
-            "width": "94",
-            "height": "27"
+      "data": {
+        "posts": [
+          {
+            "type": "description",
+            "items": [
+              {
+                "name": "Contact Us",
+                "location": "Welcome to Company Linkdood Technologies",
+                "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/contactus.png"
+              },
+              {
+                "name": "Address",
+                "location": "Unit 2, Level 3A, 1 Sentral. Jalan Stesen Sentral 5, KL Sentral, 50470 Kuala Lumpur, Malaysia "
+              },
+              {
+                "name": "Phone",
+                "location": "+603 2303 9399 "
+              },
+              {
+                "name": "Fax ",
+                "location": "+60 1700 814 714"
+              },
+              {
+                "name": "URL",
+                "location": "linkdoodtech.com/"
+              },
+              {
+                "name": "Email",
+                "location": "support@linkdood.com"
+              }
+            ]
           },
-          "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/logo.png"
-        }
+          {
+            "name": "Contact Us",
+            "location": "Welcome to Company Linkdood Technologies",
+            "content": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/contactus.png"
+          },
+          {
+            "name": "Address",
+            "location": "Unit 2, Level 3A, 1 Sentral. Jalan Stesen Sentral 5, KL Sentral, 50470 Kuala Lumpur, Malaysia "
+          },
+          {
+            "name": "Phone",
+            "location": "+603 2303 9399 "
+          },
+          {
+            "name": "Fax ",
+            "location": "+60 1700 814 714"
+          },
+          {
+            "name": "URL",
+            "location": "linkdoodtech.com/"
+          },
+          {
+            "name": "Email",
+            "location": "support@linkdood.com"
+          }
+        ]
       },
-      "layers": [{
-        "type": "label",
-        "text": "Not implemented yet...",
-        "style": {
-          "top": "50%",
-          "left": "50%-100",
-          "width": "200",
-          "align": "center"
-        }
-      }],
-      "footer": {
-        "tabs": {
-          "style": {
-            "background": "rgba(255,255,255,0.8)",
-            "color": "#000000"
+      "templates": {
+        "body": {
+          "header": {
+            "style": {
+              "shy": "true"
+            },
+            "title": {
+              "type": "image",
+              "style": {
+                "width": "94",
+                "height": "27"
+              },
+              "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/linkdood.png"
+            }
           },
-          "items": [{
-            "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/home.png",
-            "style": {
-              "height": "21"
-            },
-            "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json"
-          }, {
-            "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/search.png",
-            "style": {
-              "height": "21"
-            },
-            "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/search.json"
-          }, {
-            "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/camera.png",
-            "style": {
-              "height": "21"
-            },
-            "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/camera.json"
-          }, {
-            "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/heart.png",
-            "style": {
-              "height": "21"
-            },
-            "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/heart.json"
-          }, {
-            "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/profile.png",
-            "style": {
-              "height": "21"
-            },
-            "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/profile.json"
-          }]
+          "sections": {
+            "{{#each posts}}": [
+              {
+                "{{#if ('type' in this) && (type=='description') }}": {
+                  "type": "vartical",
+                  "items": {
+                    "{{#each items}}": {
+                      "type": "vertical"
+                    }
+                  }
+                }
+              },
+              {
+                "{{#else}}": {
+                  "header": {
+                    "type": "horizontal",
+                    "style": {
+                      "background": "#ffffff",
+                      "padding": "9",
+                      "spacing": "13"
+                    },
+                    "components": [
+                      {
+                        "type": "vertical",
+                        "components": [
+                          {
+                            "type": "label",
+                            "text": "{{name}}",
+                            "style": {
+                              "font": "HelveticaNeue-Bold",
+                              "size": "24"
+                            }
+                          },
+                          {
+                            "type": "label",
+                            "text": "{{location}}",
+                            "style": {
+                              "font": "HelveticaNeue",
+                              "size": "16"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "items": [
+                    {
+                      "style": {
+                        "width": "100%",
+                        "padding": "0"
+                      },
+                      "type": "image",
+                      "url": "{{content}}"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "footer": {
+            "tabs": {
+              "style": {
+                "background": "rgba(255,255,255,0.8)",
+                "color": "#000000"
+              },
+              "items": [
+                {
+                  "type": "label",
+                  "text": "Home",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/home.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/home.json"
+                },
+                {
+                  "type": "label",
+                  "text": "Product",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/product.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/product.json"
+                },
+                {
+                  "type": "label",
+                  "text": "About Us",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/about.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/about.json"
+                },
+                {
+                  "type": "label",
+                  "text": "Contact Us",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/contact.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/contact.json"
+                },
+                {
+                  "type": "label",
+                  "text": "T&C",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/tnc.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/tnc.json"
+                }
+              ]
+            }
+          }
         }
       }
     }
   }
 }
-
