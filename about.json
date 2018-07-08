@@ -1,66 +1,178 @@
 {
   "$jason": {
     "head": {
-      "title": "search"
-    },
-    "body": {
-      "header": {
-        "title": {
-          "type": "image",
-          "style": {
-            "width": "94",
-            "height": "27"
+      "data": {
+        "posts": [
+          {
+            "type": "description",
+            "items": [
+              {
+                "name": "About Us",
+                "location": "LINKDOOD TECHNOLOGIES SDN BHD",
+                "content": "An information technology corporation established in April 2014 which providing endpoint protection and data security management. With the extensive information security capabilities, to support in-house products to deliver innovative solutions and ensure the information security needs of our clients are consistently met or exceeded."
+              },
+              {
+                "name": "",
+                "location": "Develop solutions for Security Access Management, Behavior Control, Desktop Security Management, Data Security Management, Security Audit Management, Instant Messaging, Network Access, and Email Audit. LINKDOOD also provides Smart City infrastructure’s solution, Big Data solution as well as Internet of Things (IOT) solution"
+              },
+              {
+                "name": "Vision",
+                "location": "To position LINKDOOD as one of the brightest hotspots in South-East Asia with the aim to become a driving force in the software and data security segment in fast-growing emerging markets within the next two to three years"
+              },
+              {
+                "name": "Misson",
+                "location": " Our roadmap starts with our mission. A company that listens to client needs, values innovation in development and solved customer problems with brilliant simplicity."
+              }
+            ]
           },
-          "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/logo.png"
-        }
+          {
+            "name": "About Us",
+            "location": "LINKDOOD TECHNOLOGIES SDN BHD",
+            "content": "An information technology corporation established in April 2014 which providing endpoint protection and data security management. With the extensive information security capabilities, to support in-house products to deliver innovative solutions and ensure the information security needs of our clients are consistently met or exceeded."
+          },
+          {
+            "name": "",
+            "location": "Develop solutions for Security Access Management, Behavior Control, Desktop Security Management, Data Security Management, Security Audit Management, Instant Messaging, Network Access, and Email Audit. LINKDOOD also provides Smart City infrastructure’s solution, Big Data solution as well as Internet of Things (IOT) solution"
+          },
+          {
+            "name": "Vision",
+            "location": "To position LINKDOOD as one of the brightest hotspots in South-East Asia with the aim to become a driving force in the software and data security segment in fast-growing emerging markets within the next two to three years"
+          },
+          {
+            "name": "Misson",
+            "location": " Our roadmap starts with our mission. A company that listens to client needs, values innovation in development and solved customer problems with brilliant simplicity."
+          }
+        ]
       },
-      "layers": [{
-        "type": "label",
-        "text": "Not implemented yet...",
-        "style": {
-          "top": "50%",
-          "left": "50%-100",
-          "width": "200",
-          "align": "center"
-        }
-      }],
-      "footer": {
-        "tabs": {
-          "style": {
-            "background": "rgba(255,255,255,0.8)",
-            "color": "#000000"
+      "templates": {
+        "body": {
+          "header": {
+            "style": {
+              "shy": "true"
+            },
+            "title": {
+              "type": "image",
+              "style": {
+                "width": "94",
+                "height": "27"
+              },
+              "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/linkdood.png"
+            }
           },
-          "items": [{
-            "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/home.png",
-            "style": {
-              "height": "21"
-            },
-            "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/home.json"
-          }, {
-            "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/search.png",
-            "style": {
-              "height": "21"
-            },
-            "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/search.json"
-          }, {
-            "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/camera.png",
-            "style": {
-              "height": "21"
-            },
-            "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/camera.json"
-          }, {
-            "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/heart.png",
-            "style": {
-              "height": "21"
-            },
-            "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/heart.json"
-          }, {
-            "image": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/images/profile.png",
-            "style": {
-              "height": "21"
-            },
-            "url": "https://raw.githubusercontent.com/Jasonette/Instagram-UI-example/master/profile.json"
-          }]
+          "sections": {
+            "{{#each posts}}": [
+              {
+                "{{#if ('type' in this) && (type=='description') }}": {
+                  "type": "vartical",
+                  "items": {
+                    "{{#each items}}": {
+                      "type": "vertical"
+                    }
+                  }
+                }
+              },
+              {
+                "{{#else}}": {
+                  "header": {
+                    "type": "horizontal",
+                    "style": {
+                      "background": "#ffffff",
+                      "padding": "9",
+                      "spacing": "13"
+                    },
+                    "components": [
+                      {
+                        "type": "vertical",
+                        "components": [
+                          {
+                            "type": "label",
+                            "text": "{{name}}",
+                            "style": {
+                              "font": "HelveticaNeue-Bold",
+                              "size": "24"
+                            }
+                          },
+                          {
+                            "type": "label",
+                            "text": "{{location}}",
+                            "style": {
+                              "font": "HelveticaNeue",
+                              "size": "16"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "items": [
+                    {
+                      "style": {
+                        "width": "100%",
+                        "padding": "0"
+                      },
+                      "type": "image",
+                      "url": "{{content}}"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "footer": {
+            "tabs": {
+              "style": {
+                "background": "rgba(255,255,255,0.8)",
+                "color": "#000000"
+              },
+              "items": [
+                {
+                  "type": "label",
+                  "text": "Home",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/home.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/home.json"
+                },
+                {
+                  "type": "label",
+                  "text": "Product",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/product.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/product.json"
+                },
+                {
+                  "type": "label",
+                  "text": "About Us",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/about.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/about.json"
+                },
+                {
+                  "type": "label",
+                  "text": "Contact Us",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/contact.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/contact.json"
+                },
+                {
+                  "type": "label",
+                  "text": "T&C",
+                  "image": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/images/tnc.png",
+                  "style": {
+                    "height": "21"
+                  },
+                  "url": "https://raw.githubusercontent.com/daniellai9317/linkdood/master/tnc.json"
+                }
+              ]
+            }
+          }
         }
       }
     }
